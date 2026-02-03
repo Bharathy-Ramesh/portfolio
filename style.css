@@ -245,16 +245,16 @@ h3{
   }
   .box{
     border: 2px #302f2f solid;
-    width:170px;
+    width:200px;
     height:55px;
     border-bottom-color: #944b94;
     margin: 10px;
   }
 
-  .box:hover {
+  /*.box:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
-  }
+  }*/
   
   @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -291,6 +291,7 @@ h3{
       background-color: black; 
       background-image: linear-gradient(#cf85cd, #baa7df);
       margin:40px;
+      padding: 24px 16px;
     }
 
     @media screen and (max-width:1300px){
